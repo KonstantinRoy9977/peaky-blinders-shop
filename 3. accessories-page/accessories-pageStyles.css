@@ -1,0 +1,269 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Alumni Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+.logoBlock {
+    height: 100px;
+    background-color: #3f3f3f;
+    font-size: 70px;
+    font-family: 'Road Rage';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.PBlogo {
+    width: 305px;
+    margin: 0px 0px 0px 50px;
+}
+.PBlogo a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.logoIcons {
+    width: 180px;
+    margin: 0px 50px 0px 0px;
+}
+.logoIcons img {
+    transition: transform 0.3s;
+}
+.logoIcons img:hover {
+    -webkit-transform: scale()1.1;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.iconSearch {
+    width: 27%;
+}
+.iconRegistr {
+    width: 28%;
+}
+.iconBag {
+    width: 29%;
+}
+.capBlock {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 18px;
+    font-family: 'Rubik';
+}
+.capBlock a {
+    text-decoration: none;
+    color: #2e2e2e;
+    margin: 0px 50px 0px 0px;
+}
+.capBlock a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+.menu {
+    display: flex;
+}
+.pagePhoto img {
+    width: 100%;
+    display: block;
+}
+.linksBlock {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-size: 13px;
+    color: #000000;
+    background-color: lightgrey;
+}
+.linksBlock a {
+    color: black;
+    text-decoration: underline;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+.linksBlock a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+.linksBlock p {
+    margin: 0px 10px 0px 0px;
+}
+.backLink {
+    display: flex;
+    width: 70px;
+    margin: 0px 0px 0px 45px;
+}
+.backLink img {
+    width: 15%;
+}
+.backLink a {
+    margin: 0px 0px 0px 6px;
+}
+.headingBlock {
+    width: 100%;
+    margin: 0px 0px 50px 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-size: 11px;
+}
+.headingBlock h1 {
+    margin: 25px 20px 20px 0px;
+}
+.headingBlock p {
+    font-weight: 600;
+    margin: 25px 20px 20px 0px;
+}
+.productsBlock {
+    margin: 0px 20px 100px 45px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.productCard {
+    width: 320px;
+    height: 530px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    margin: 0px 40px 30px 0px;
+}
+.productCard p {
+    margin: 15px 0px 0px 10px;
+}
+.productCard a {
+    text-decoration: none;
+    color: black;
+}
+.productCard a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.cardPhoto {
+    width: 320px;
+    height: 400px;
+    box-shadow: 0px 0px 1px 0.6px #cfcfcf;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cardPhoto img {
+    width: 100%;
+    transition: transform 0.5s;
+}
+.cardPhoto img:hover {
+    -webkit-transform: scale()1.1;
+    -ms-transform: scale(1.1);
+    transform: scale(1.05); 
+}
+
+
+
+
+
+.endBlock {
+    height: 400px;
+    width: 100%;
+    background-color: #3f3f3f;
+}
+.endBlockContent {
+    padding: 50px 50px 0px 50px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.endBlockContent h1 {
+    font-size: 17px;
+    margin: 0px 0px 30px 0px;
+}
+.endBlockContent p {
+    font-size: 14px;
+}
+.endBlockContent a {
+    color: white;
+    text-decoration: none;
+}
+.endBlockContent a:hover {
+    text-decoration: underline;
+}
+.help {
+    margin: 0px 0px 0px 0px;
+}
+.info {
+    margin: 0px 0px 0px 40px;
+}
+.aboutUs {
+    margin: 0px 0px 0px 40px;
+}
+.getNewsAndOffers {
+    margin: 0px 0px 0px 180px;
+    width: 330px;
+}
+.getNewsAndOffers h1 {
+    width: 330px;
+    margin: 0px 0px 12px 0px;
+}
+
+.registrationForm {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+.registrationForm input {
+    height: 35px;
+    width: 180px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.registrationForm input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.registrationForm button {
+    height: 38px;
+    width: 135px;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    margin-left: -4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+}
+.registrationForm button:hover {
+    background-color: #262626;
+}
+.instLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.facebookLogo {
+    width: 10%;
+    margin: 0px 10px 0px 0px;
+}
+.twitterLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.youtubeLogo {
+    width: 9%;
+    margin: 0px 10px 0px 0px;
+}
+.tikTokLogo {
+    width: 11%;
+}
